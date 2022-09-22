@@ -3,7 +3,7 @@ sap-api-integrations-purchase-requisition-creates-rmq-kube は、他のすべて
 sap-api-integrations-purchase-requisition-creates-rmq-kube は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的に、SAP API で購買依頼データを登録するマイクロサービスです。  
 sap-api-integrations-purchase-requisition-creates-rmq-kube には、サンプルのAPI Json フォーマットが含まれています。  
 sap-api-integrations-purchase-requisition-creates-rmq-kube は、オンプレミス版である（＝クラウド版ではない）SAPS4HANA API の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。  
-https://api.sap.com/api/OP_API_PurchaseRequision_SRV_0001/overview  
+https://api.sap.com/api/OP_API_PURCHASEREQ_PROCESS_SRV_0001/overview 
 
 ## 動作環境  
 sap-api-integrations-purchase-requisition-creates-rmq-kube は、主にエッジコンピューティング環境における動作にフォーカスしています。  
@@ -53,7 +53,7 @@ $ kubectl get pods
 ## 本レポジトリ が 対応する API サービス
 sap-api-integrations-purchase-requisition-creates-rmq-kube が対応する APIサービス は、次のものです。
 
-* APIサービス概要説明 URL: https://api.sap.com/api/API_PURCHASEREQ_PROCESS_SRV/overview  
+* APIサービス概要説明 URL: https://api.sap.com/api/OP_API_PURCHASEREQ_PROCESS_SRV_0001/overview  
 * APIサービス名(=baseURL): API_PURCHASEREQ_PROCESS_SRV
 
 ## 本レポジトリ に 含まれる API名
